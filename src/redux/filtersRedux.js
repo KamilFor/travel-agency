@@ -47,7 +47,6 @@ export const changingDurationTo = (payload, value) => ({
 
 // reducer
 export default function reducer(statePart = [], action = {}) {
-  console.log(statePart);
   switch (action.type) {
     case CHANGE_PHRASE:
       return {

@@ -1,5 +1,6 @@
 import { connect } from 'react-redux';
 import TripListOptions from './TripListOptions';
+//Functions
 import { getAllTags } from '../../../redux/tagsRedux';
 import {
   getAllFilters,
