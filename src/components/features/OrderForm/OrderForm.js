@@ -20,6 +20,6 @@ export default class OrderForm extends Component {
 }
 
 OrderForm.propTypes = {
-  tripCost: PropTypes.number,
+  tripCost: PropTypes.string,
   options: PropTypes.object,
 };
