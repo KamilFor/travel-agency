@@ -79,7 +79,6 @@ const Trip = ({ error, name, image, cost, days, description, country, intro }) =
             <Col xs={12}>
               <PageTitle text='Trip options' />
               <OrderForm tripCost={cost} />
-              {console.log(cost)}
             </Col>
           </Row>
         </Grid>

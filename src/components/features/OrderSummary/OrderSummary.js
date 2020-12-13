@@ -10,7 +10,6 @@ import { formatPrice } from '../../../utils/formatPrice';
 export default class OrderSummary extends Component {
   render() {
     const { tripCost, options } = this.props;
-    console.log(options);
     return (
       <div>
         <h2 className={styles.component}>
