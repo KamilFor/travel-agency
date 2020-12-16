@@ -9,7 +9,6 @@ import pricing from '../../../data/pricing.json';
 export default class OrderForm extends Component {
   render() {
     const { tripCost, options, setOrderOption } = this.props;
-    console.log(options);
     return (
       <Grid>
         <Row>

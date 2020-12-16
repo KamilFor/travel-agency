@@ -26,7 +26,7 @@ export default class OrderOptionNumber extends Component {
 OrderOptionNumber.propTypes = {
   currentValue: PropTypes.node,
   limits: PropTypes.object,
-  price: PropTypes.number,
+  price: PropTypes.string,
   setOptionValue: PropTypes.func,
   min: PropTypes.number,
   max: PropTypes.number,

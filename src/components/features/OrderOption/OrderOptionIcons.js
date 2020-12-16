@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import { formatPrice } from '../../../utils/formatPrice';
 
 const OrderOptionIcons = ({ values, required, setOptionValue }) => (
-  <div className={styles.icon}>
+  <div className='main component'>
     {required ? (
       ''
     ) : (
@@ -25,10 +25,10 @@ const OrderOptionIcons = ({ values, required, setOptionValue }) => (
 );
 
 OrderOptionIcons.propTypes = {
-  values: PropTypes.object,
-  required: PropTypes.node,
+  values: PropTypes.array,
+  required: PropTypes.bool,
   setOptionValue: PropTypes.func,
-  map: PropTypes.node,
+  map: PropTypes.func,
 };
 
 export default OrderOptionIcons;

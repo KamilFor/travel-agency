@@ -10,7 +10,6 @@ const OrderOptionDropdown = ({ values, required, currentValue, setOptionValue })
     value={currentValue}
     onChange={(event) => setOptionValue(event.currentTarget.value)}
   >
-    {console.log(currentValue)}
     {required ? (
       ''
     ) : (
@@ -27,7 +26,7 @@ const OrderOptionDropdown = ({ values, required, currentValue, setOptionValue })
 );
 
 OrderOptionDropdown.propTypes = {
-  values: PropTypes.object,
+  values: PropTypes.array,
   required: PropTypes.node,
   setOptionValue: PropTypes.func,
   map: PropTypes.node,
