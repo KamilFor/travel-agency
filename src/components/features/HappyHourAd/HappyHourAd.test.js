@@ -80,7 +80,6 @@ describe('Component HappyHourAd', () => {
   it('should render heading and desciption', () => {
     const component = shallow(<HappyHourAd />);
     expect(component.exists(select.title)).toEqual(true);
-    expect(component.exists(select.title)).toEqual(true);
   });
 
   // Test 3
